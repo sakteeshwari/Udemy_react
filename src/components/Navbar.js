@@ -9,7 +9,7 @@ function Navbar()
                 <h1>Udemy</h1>
             </div>
             <div  className="nav__s2">
-                <i  className="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                <i  className="fa-solid fa-magnifying-glass" style={{color: "#000000"}}></i>
                 <input type="search" placeholder="Search for anything here.Tech,Business,Art....."></input>
             </div>
             <div  className="nav__s3">
@@ -23,9 +23,9 @@ function Navbar()
                         <p>You didnot purchase anything yet...</p>
                     </div>
                 </div>
-                <i  className="fa-solid fa-cart-shopping" style="color: #000000;"></i>
-                <i  className="fa-solid fa-bell" style="color: #000205;"></i>
-                <i  className="fa-solid fa-user" style="color: #000000;"></i>
+                <i  className="fa-solid fa-cart-shopping" style={{color: "#000000;"}}></i>
+                <i  className="fa-solid fa-bell" style={{color:" #000205"}}></i>
+                <i  className="fa-solid fa-user" style={{color: "#000000"}}></i>
             </div>
 
             {/*mobile screen new section added */}
